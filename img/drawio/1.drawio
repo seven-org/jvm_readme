@@ -1,0 +1,109 @@
+<mxfile host="65bd71144e">
+    <diagram id="m62yB9BSVfLrakpAHnoV" name="Page-1">
+        <mxGraphModel dx="538" dy="1086" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="230" width="910" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Native Method Stacks&lt;br&gt;(本地方法栈)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="260" width="420" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="340" width="870" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Programmer Counter Register&lt;br&gt;(程序计数器)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="260" width="430" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1FBF84;fontColor=#ffffff;strokeColor=#156936;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="590" width="420" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="590" width="260" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="CodeCache&lt;br&gt;JVM 代码缓存&lt;br&gt;(又称为 JIT 代码缓存)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="590" width="150" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Direct Memort(直接内存)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="820" width="860" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;JVM Stacks&lt;/span&gt;&lt;br style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;(虚拟机栈)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="440" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#1B44CC;dashed=1;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="360" width="380" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="栈帧-1 (方法A)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="370" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="局部变量表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="400" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="操作栈" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="400" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="动态链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="400" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="方法返回地址" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="400" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#1B44CC;dashed=1;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="470" width="380" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="栈帧-2 (方法A)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="480" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="局部变量表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="510" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="操作栈" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="510" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="动态链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="510" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="方法返回地址" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="510" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="栈帧-3&lt;br&gt;...&lt;br&gt;方法C&lt;br&gt;..." style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#1B44CC;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="360" width="240" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;Heap(堆)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="600" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#005700;strokeWidth=1;fillColor=#0AA137;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="630" width="250" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Old 区&lt;br&gt;(老年代)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3700CC;strokeWidth=1;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="425" y="630" width="105" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Eden 区" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;strokeWidth=1;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="650" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="S0" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;strokeWidth=1;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="710" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="S1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;strokeWidth=1;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="710" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Young 区&lt;br&gt;(新生代)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="670" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;Metaspace&lt;br&gt;(元数据区)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="665" y="610" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="常量池" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D1F00;strokeWidth=1;fillColor=#a0522d;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="650" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="方法元信息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D1F00;strokeWidth=1;fillColor=#a0522d;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="720" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Class&lt;br&gt;类元信息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D1F00;strokeWidth=1;fillColor=#a0522d;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="650" width="100" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
