@@ -638,8 +638,8 @@ Kafka、Zookeeper、MySQL、Redis、JVM
 1. hibernate 实体类必须要有无参构造函数吗?为什么?
     hibernate 中每个实体类必须提供一个无参构造函数,因为 hibernate 框架要使用 reflectionapi,通过调用 ClassnewInstance() 来创建实体类的实例,如果没有无参的构造函数就会抛出异常。
 
-1. MyBatis 中 #{}和 ${} 的区别是什么?
-    #{}是预编译处理,${}是字符替换。 在使用 #{}时,MyBatis 会将 SQL 中的 #{}替换成“?”,配合 PreparedStatement 的 set 方法赋值,这样可以有效的防止 SQL 注入,保证程序的运行安全。
+1. MyBatis 中 `#{}` 和 `${}` 的区别是什么?
+    `#{}`是预编译处理,`${}`是字符替换。 在使用 `#{}`时,MyBatis 会将 SQL 中的 `#{}`替换成“?”,配合 PreparedStatement 的 set 方法赋值,这样可以有效的防止 SQL 注入,保证程序的运行安全。
 
 1. MyBatis 有几种分页方式?
     分页方式:逻辑分页和物理分页。
